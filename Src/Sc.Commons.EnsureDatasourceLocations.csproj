@@ -7,8 +7,8 @@
     <ProjectGuid>{ED5B19F8-33A9-432F-854D-229B503C5A47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sc.Commons.EnsureDatasourceFolder</RootNamespace>
-    <AssemblyName>Sc.Commons.EnsureDatasourceFolder</AssemblyName>
+    <RootNamespace>Sc.Commons.EnsureDatasourceLocations</RootNamespace>
+    <AssemblyName>Sc.Commons.EnsureDatasourceLocations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="App_Config\Include\Sc.Commons\EnsureDatasourceFolder.config">
+    <None Include="App_Config\Include\Sc.Commons\EnsureDatasourceLocations.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

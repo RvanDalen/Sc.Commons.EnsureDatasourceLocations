@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Sc.Commons.EnsureDatasourceFolder</id>
+    <id>Sc.Commons.EnsureDatasourceLocations</id>
     <version>1.0.0</version>
     <title>Sc.Mvc.PartialLayoutPresets</title>
     <authors>reinoud.van.dalen</authors>
@@ -15,7 +15,7 @@
       Automatically create datasource locations
     </summary>
     <language>en-US</language>
-    <projectUrl>https://github.com/RvanDalen/Sc.Commons.EnsureDatasourceFolder</projectUrl>
+    <projectUrl>https://github.com/RvanDalen/Sc.Commons.EnsureDatasourceLocations</projectUrl>
     <iconUrl>https://media.licdn.com/mpr/mpr/shrinknp_100_100/p/5/000/200/337/140c41e.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>

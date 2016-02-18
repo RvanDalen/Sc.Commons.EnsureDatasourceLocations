@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Commons.EnsureDatasourceFolder", "Src\Sc.Commons.EnsureDatasourceFolder.csproj", "{ED5B19F8-33A9-432F-854D-229B503C5A47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Commons.EnsureDatasourceLocations", "Src\Sc.Commons.EnsureDatasourceLocations.csproj", "{ED5B19F8-33A9-432F-854D-229B503C5A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Commons.EnsureDatasourceFolder.Nuget", "Nuget\Sc.Commons.EnsureDatasourceFolder.Nuget.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Commons.EnsureDatasourceLocations.Nuget", "Nuget\Sc.Commons.EnsureDatasourceLocations.Nuget.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

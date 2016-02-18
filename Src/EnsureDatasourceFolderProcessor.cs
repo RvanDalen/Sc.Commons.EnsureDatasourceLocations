@@ -6,14 +6,14 @@ using Sitecore.Pipelines.GetRenderingDatasource;
 using Sitecore.SecurityModel;
 using Sitecore.Text;
 
-namespace Sc.Commons.EnsureDatasourceFolder
+namespace Sc.Commons.EnsureDatasourceLocations
 {
-    public class EnsureDatasourceFolderProcessor
+    public class EnsureDatasourceLocationsProcessor
     {
         private readonly int _sortOrder;
         private readonly ID _templateId;
 
-        public EnsureDatasourceFolderProcessor(string sortOrder, string templateId)
+        public EnsureDatasourceLocationsProcessor(string sortOrder, string templateId)
         {
             _templateId = ID.Parse(templateId);
             _sortOrder = int.Parse(sortOrder);
