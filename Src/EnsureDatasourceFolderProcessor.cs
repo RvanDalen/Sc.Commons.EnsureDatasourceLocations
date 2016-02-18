@@ -1,5 +1,6 @@
 ﻿using System;
 using Sitecore.Data;
+using Sitecore.Data.Events;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetRenderingDatasource;
@@ -25,6 +26,7 @@ namespace Sc.Commons.EnsureDatasourceLocations
 
             var database = args.ContentDatabase;
 
+            using (new EventDisabler())
             using (new SecurityDisabler())
             {
                 foreach (var dataSourceLocation in new ListString(args.RenderingItem["Datasource Location"], '|'))
@@ -44,7 +46,7 @@ namespace Sc.Commons.EnsureDatasourceLocations
                             var template = database.GetTemplate(_templateId);
                             privateItem = database.CreateItemPath(privatePath, template);
 
-                            using (new EditContext(privateItem, false, true))
+                            using (new EditContext(privateItem))
                             {
                                 privateItem.Appearance.Sortorder = _sortOrder;
                             }
